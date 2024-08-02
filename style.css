@@ -1,0 +1,235 @@
+.body{
+  /*background: rgb(251,148,63);
+  background: radial-gradient(circle, rgba(251,148,63,1) 0%, rgba(252,70,107,1) 100%);*/
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,139,253,1) 27%, rgba(252,176,69,1) 100%);
+
+}
+
+.navbar-toggler-icon{
+  color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.menu-item {
+  text-align: center;
+}
+
+hr {
+  border: none;
+  height: 4px;
+  background-color: #333;
+  margin: 40px 0;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+  }
+  
+  .site-header a:hover {
+    color: #ffffff;
+  }
+
+  .menu-item{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .menu-item a {
+    color: #a49f9f;
+    text-decoration: none;
+  }
+
+  .menu-item :hover {
+    color: #ffffff;
+    
+  }
+
+  #img-Carrusel{
+    width: 100%;
+    height: 100%;
+  }
+
+  #img-carrusel-tarjeta{
+    height: 100%;
+  }
+  
+  #img-carrusel-tarjetab{
+    /*margin-top:10%;*/
+    border-radius: 5%;
+    border: 5px solid;
+  }
+
+  #img-carrusel-tarjetaba{
+    height: 100%;
+    border-radius: 5%;
+    border: 5px solid;
+  }
+
+  #tarjeta-blanca{
+    padding: 8px 8px 8px 8px;  
+    text-align: center;
+  }
+
+  #tarjeta-oscura{
+    background-color: #212529;
+    padding: 48px 48px 0px 48px; 
+    border-radius: 5%;
+    text-align: center;
+    color: #ffffff;
+    
+  }
+
+  #tarjeta-carrusel{
+    padding: 8px 8px 8px 8px; 
+    text-align: center;
+  }
+  
+  #tarjeta-carruselb{
+    padding: 8px 8px 8px 8px; 
+    text-align: center;
+  }
+
+  #img-carrusel-tarjetabb{
+    padding: 8px 8px 8px 8px; 
+    margin-right: 16px;
+    text-align: center;
+  }
+
+/*  .nombreEmpresa {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 10; 
+    width: 100%;
+    height: 100%;
+}
+
+.textoEmpresa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 11; 
+  font-size: 150px;
+
+}*/
+
+
+  .carousel-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    z-index: 1;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer .column {
+    padding: 20px;
+  }
+  
+  .footer .tarjeta-blanca, .footer .tarjeta-oscura, .footer .tarjeta-redes {
+    margin-bottom: 20px;
+  }
+  
+  .footer h2 {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .footer .social-icons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .social-icons li {
+    margin: 5px 0;
+  }
+  
+  .footer .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer .social-icons a i {
+    margin-left: 10px;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #e5b21a;
+  }
+  
+  #contacto{
+    font-weight: bold;
+  }
+
+  .lead{
+    font-weight: 900;
+  }
+
+  @media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1400px !important;
+    }
+}
+
+  @media (min-width: 1450px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1400px !important;
+    }
+}
+
+@media (min-width: 1810px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1800px !important;
+  }
+}
+
+.card-img-top {
+  width: 100%; 
+  height: 600px;
+  object-fit: cover; 
+  padding: 5%;
+  border-radius: 7%;
+}
+
+#btn-buy{
+  align-items: center;
+  display: flow-root;
+}
+/* Jorge Figueroa */
+.error {
+            color: red;
+            display: none;
+        }
+.valPass {
+            color: red;
+            display: none;
+        }
